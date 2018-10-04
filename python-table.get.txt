@@ -1,0 +1,7 @@
+table = { 'a':1, 'b':2, 'c':3, 'd':4, 'e':5 }
+
+
+print( table['a'] )
+print( table['1'] )
+print(  table.get('a', 'can not find this key') )
+print(  table.get('1', 'can not find this key') )

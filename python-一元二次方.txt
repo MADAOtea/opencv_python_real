@@ -1,0 +1,18 @@
+try:
+    while True:
+        num1,num2,num3 = map(int,input().split())
+        judgment = num2**2 - (4*num1*num3)
+        if judgment > 0 :
+          ans1 = int(((-num2)+(judgment**0.5)) / 2*num1)
+          ans2 = int(((-num2)-(judgment**0.5)) / 2*num1)
+          print( 'Two different roots x1=',ans1,' , x2=',ans2,sep='')
+
+        elif judgment == 0:
+          ans = int(-num2 / (2*num1) )
+          print('Two same roots x=',ans,sep='' ) 
+ 
+        else:
+           print('No real root')
+
+except EOFError:
+    pass

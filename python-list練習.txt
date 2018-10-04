@@ -1,0 +1,9 @@
+table = {} 
+
+for i in range(5)
+  k = input('¿é¤Jkey:') 
+  value = int(input('¿é¤J­È:'))
+  table[k] = value 
+  print( end = '\n' )
+
+print(table) 
